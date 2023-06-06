@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner{
+    
+    border: 1px solid;
+    margin: 10px auto;
+}
+
+header {
+    background-color: rgba(252, 252, 254, 0.824);
+}
+
+nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+.logo{
+    min-width: 1%;
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
+    
+}
+
+ul li {
+    margin: 0 25px;
+    display:inline-block;
+}
+
+.search{
+    
+    font-size: x-large;
+    padding: 0 ;
+}
+
+ul li a {
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    border: solid;
+    border-radius: 1%;
+    color: rgb(7, 7, 7);
+}
+
+.icon i {
+    margin: 0 20px;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+}
